@@ -1,0 +1,51 @@
+.border{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar{
+    width: 180px;
+    height: 185px;
+    overflow: hidden;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.avatar img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.button-upload{
+    position: relative;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    margin-left: 147px;
+    top: -2rem;
+   
+ 
+}
+.button-upload button{
+    display: block; 
+
+    object-fit: cover;
+    position: absolute;
+}
+
+ #file_up{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+    left: 0;
+    top:0;
+}
+::-webkit-file-upload-button{
+    cursor: pointer;
+}
+

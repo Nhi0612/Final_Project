@@ -1,0 +1,96 @@
+.cart{
+    padding: 2px 5px;
+    background-color: #e84118;
+    border-radius: 50%;
+    border: 0.5px solid  #fff;
+    top: -0.5rem;
+    left: 9px;
+    color: #fff;
+    font-size: 0.7rem;
+
+}
+.nav-background{
+  background-color: #fff;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  z-index: 4;
+}
+
+.filter-sort{
+  border-color: #e84118;
+
+}
+/*------------------------Footer Page----------------*/
+
+.container1{
+   
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .container2{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 100px;
+  }
+
+  .row1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  footer {
+    background-color: #f1f2f6;
+    font-size: 14px;
+    padding: 20px 0 20px;
+    color: black;
+  }
+  footer p {
+    color: black;
+  }
+  footer h3 {
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .fo-col-1,
+  .fo-col-2,
+  .fo-col-3,
+  .fo-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  .fo-col-1 {
+    flex-basis: 30%;
+  }
+  .fo-col-2,
+  .fo-col-4,
+  .fo-col-3 {
+    flex-basis: 12%;
+    text-align: left;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .app-logo {
+    margin-top: 20px;
+  }
+  .app-logo img {
+    width: 140px;
+  }
+
+  .nav-logo{
+    width: 230px;
+    padding-right: 10px;
+  }
+
+  .nav-search{
+    width: 600px;
+  }
+  
+
+  
